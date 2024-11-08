@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    background-color: #cca975;
+    margin: 60px auto;
+    padding: 50px;
+    border-radius: 15px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    color: #522d0e;
+    font-size: 24px;
+    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
+}
+
+
+
+.inputContainer {
+    margin: 30px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 40px;
+    font-size: 18px;
+    border: 2px solid #c3a96a;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-right: 10px;
+    width: 70%;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    border-color: #af8d50;
+}
+
+.inputContainer button {
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #8b5e34;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.inputContainer button:hover {
+    background-color: #734926;
+    transform: scale(1.05);
+}
+
+.list_container {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.list_container li {
+    margin-bottom: 20px;
+    background-color: rgba(49, 104, 58, 0.7);
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* transition: background-color 0.3s ease-in-out; */
+}
+
+
+
+.list_container button {
+    background-color: #1e5332;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.list_container button:hover {
+    background-color: #7e0d0d;
+    transform: scale(1.05);
+}
+
